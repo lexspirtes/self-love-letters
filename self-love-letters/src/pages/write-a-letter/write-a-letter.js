@@ -1,11 +1,17 @@
 import SubmitButton from "./submit-button";
+import TextInput from "./text-input";
+import DateInput from "./date-input";
+
+import './write-a-letter.module.scss'
 
 
 export const WriteLetter = () => {
     return (
         <>
-        whats up!
-        <SubmitButton text='submit'/>
+            <div className='hi'>hi</div>
+            <DateInput/>
+            <TextInput/>
+            <SubmitButton text='submit'/>
         </>
     );
 }

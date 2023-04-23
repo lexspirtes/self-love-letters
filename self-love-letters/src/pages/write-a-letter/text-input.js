@@ -1,9 +1,11 @@
 
 
-const hello = () => {
+const TextInput = () => {
     return (
-        <div>hi</div>
+        <input type="text" id="name" name="name" required
+       minlength="10" size="12">
+        </input>
     )
 };
 
-export default hello;
+export default TextInput;
