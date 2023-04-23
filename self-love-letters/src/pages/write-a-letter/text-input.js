@@ -1,6 +1,6 @@
 
 
-const TextInput = () => {
+const TextInput = (subject) => {
     return (
         <input type="text" id="name" name="name" required
        minlength="10" size="12">

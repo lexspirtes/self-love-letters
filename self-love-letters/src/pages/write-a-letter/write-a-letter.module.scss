@@ -3,3 +3,10 @@
 .hi {
     font-weight: bold;
 }
+
+.writeLetter {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    text-align: center;
+}
